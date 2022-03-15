@@ -1,0 +1,10 @@
+1. Crear la carpeta de nuestro repositorio
+2. en la consola gitbash inicializar con 
+	'git init'
+
+3. en la consola tecleamos 'git status'
+	-me indica en que rama estamos
+	-dice en que commit estamos  (commit: se refiere a una modificacion en el codigo)
+	-git add nombreDelArchivo: subimos al stage, en el stage se ponen los archivos para despues ser comiteados
+	-
+	
