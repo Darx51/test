@@ -6,5 +6,36 @@
 	-me indica en que rama estamos
 	-dice en que commit estamos  (commit: se refiere a una modificacion en el codigo)
 	-git add nombreDelArchivo: subimos al stage, en el stage se ponen los archivos para despues ser comiteados
-	-
+
+4.git commit "descripcion de cambio realizado "
+
+5.git commit -m "descripcion de cambio realizado "
+
+5. git add . "agrega todos los archivos al stage"
 	
+7. Sacamos un archivo del staging index con 
+			'git rm --cached nombreDelArchivo.txt'
+
+8. Para ignorar uno o varios archivos creamos el archivo .gitignore y dentro indicamos el nombre de los archivos con su extension que 
+			wueremos que sean ignorados o no subir al stage
+
+9. GIT LOG nos muestra todos los commits o modificaciones que hemos hecho
+
+10. git log --stat  'este comando nos permipe ver mas desglosados los commits'
+		-cuantos archivos modificados
+		-cuantas lineas agregadas, modificadas o eliminadas etc...
+
+11. git log --oneline
+		muestra os commits ordenados con sus ids y sin descripciones
+
+12. git log --graph
+		nos muestra una grafica de tosos los cambios o commits 
+
+13. git log --online --graph --all
+		muestra el log y grafica de todos	
+
+14. git diff 
+		muestra la diferencia entre el commit pasado y el la nueva modificacion			
+
+15. git diff 		idCommit_1 idCommit_2 archivoAComparar.html			(ES DE LOS MAS IMPORTANTES)
+		me mostrara la diferencia entre esos 2 commits
