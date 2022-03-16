@@ -60,25 +60,25 @@
 21. 'git branch -d experimento' 
 		con este comando eliminamos la rama experimento
 
-22. CLONAR UN REPOSITORIO EN GITHUB
+22. SUBIR UN REPOSITORIO DESDE NUESTRA COMPUTADORA A GITHUB
 		-Agregamos la url en gitbash que nos genera github para hacer push desde nuestro repositorio creado en local hacia github
 
-												'git remote add origin https://github.com/Darx51/test.git'
+					'git remote add origin https://github.com/Darx51/test.git'
 
 		-Revisamos que ya tenemos el repositorio de github llamado 'origin'agregaNdo con el comando"
 
-													'git remote -v'
+					  'git remote -v'
 
 23. Hacemos el Envio de nuestro repositorio local hacia nuestro repositorio en Github llamado origin con el siguiente comando:
 
-				'git push -u origin master'
+				      'git push -u origin master'
 		
 		origin: es el nombre del repositorio de github 
 		master: es el nombre de la rama desde donde subiremos el repositorio que queremos CLONAR
 
-24. CLONAR REPOSITORIO DESDE GUTHUB HACIA NUESTRA COMPUTADORA
+24. DESCARGAR REPOSITORIO DESDE GUTHUB HACIA NUESTRA COMPUTADORA
 
-						'git pull origin master'
+					'git pull origin master'
 
 			origin: hace referencia a que traeremos los archivos desde el repositirio llamado 'origin' en Github
 			master: se refiere a que el repositirio que traeremos se alojara en la rama 'master'
