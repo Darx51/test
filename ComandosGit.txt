@@ -39,3 +39,50 @@
 
 15. git diff 		idCommit_1 idCommit_2 archivoAComparar.html			(ES DE LOS MAS IMPORTANTES)
 		me mostrara la diferencia entre esos 2 commits
+
+16. git checkout 'idCommitAlQueQueremosRegresar'		
+		nos regresa a la version del id_delComit que le indiquemos
+
+17. 'git checkout master'
+		ese comando nos permite pasar de una rama a otra 		
+
+18. 'git checkout -b 'nuevaRama'
+		Duplicamos nuestro proyecto (como si fuera un borrador)
+		creamos una nueva rama y al mismo tiempo nos cambia a esta nueva rama con el nombre 'nuevaRama' o el que le hayamos indicado
+		en esta nueva rama podemos trabajar y hasta crear nuevos archivos y si queremos cambiar a la rama anterior debemos dar solo 'git checkout master' puede ser master o nombre de la rama en la version que queremos volver
+
+19. 'git branch' 
+		con este comando me muestra las ramas existentes y en que rama actual estoy trabajando
+
+20. 'git merge RamaExperimento'
+		si estamos dentro de la rama master la forma de unir las ramas es con este comando 
+
+21. 'git branch -d experimento' 
+		con este comando eliminamos la rama experimento
+
+22. CLONAR UN REPOSITORIO EN GITHUB
+		-Agregamos la url en gitbash que nos genera github para hacer push desde nuestro repositorio creado en local hacia github
+
+												'git remote add origin https://github.com/Darx51/test.git'
+
+		-Revisamos que ya tenemos el repositorio de github llamado 'origin'agregaNdo con el comando"
+
+													'git remote -v'
+
+23. Hacemos el Envio de nuestro repositorio local hacia nuestro repositorio en Github llamado origin con el siguiente comando:
+
+				'git push -u origin master'
+		
+		origin: es el nombre del repositorio de github 
+		master: es el nombre de la rama desde donde subiremos el repositorio que queremos CLONAR
+
+24. CLONAR REPOSITORIO DESDE GUTHUB HACIA NUESTRA COMPUTADORA
+
+						'git pull origin master'
+
+			origin: hace referencia a que traeremos los archivos desde el repositirio llamado 'origin' en Github
+			master: se refiere a que el repositirio que traeremos se alojara en la rama 'master'
+
+
+
+			
