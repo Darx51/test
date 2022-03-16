@@ -84,5 +84,9 @@
 			master: se refiere a que el repositirio que traeremos se alojara en la rama 'master'
 
 
-
+25. CLONAR UN REPOSITORIO EN GITBASH O LA TERMINAL
+	
+		'git clone https://github.com/cursowebfalconmaster'
+		
+     siempre sera el comando git clone y la url del repositirio que nos da Github
 			
