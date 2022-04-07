@@ -123,12 +123,16 @@
 	
 			'git remote add origin https://github.com/Darx51/test.git'
 	 		
-			origin: hace referencia al repositorio recien creado en github 
+			origin: hace referencia al repositorio recien creado en github pero el nombre de origin lo 
+				podemos cambiar por cualquier otro nombre que queramos por ejemplo origin_gallery, 
+				solo deberemos tomarlo en cuanta al hacer push deberia ser 'git push -u origin_galleri tester_branch'
+				
 	
 7- Tecleamos este comando:
 	
-		'git push -u origin tester_branch	
+		'git push -u origin tester_branch'	
 		tester_branch: es el nombre de la rama en git desde donde subiremos el repositorio que queremos CLONAR
+		OJO Para los websites debemos agregar la rama en git 'gh-pages'
      
 8- Actualizamos el repositorio en Github y nos debe aparecer los archivos subidos recientemente
 	-Nos bamos a setings 
@@ -138,5 +142,16 @@
 	
 	-Ahi seleccionamos:
 		-la rama de git desde donde subimos nuestro proyecto
-		- Y tambien podemos elegir root o docs, en nuestro caso elegimos docs y guardamos 
+		- Y tambien podemos elegir root o docs, en nuestro caso elegimos docs y guardamos y listo
+			
+			
+			
+			
+NOTA:
+	Para eliminar un repositorio remoto de github desde git lo hacemos asi:
+	
+	git remote -v       (nos muestra todos los repositorios remotos ya creados)
+	git remote rm origin	(eliminamos el repositorio llamado origin)
+			
+			
 			
