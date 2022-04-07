@@ -138,5 +138,5 @@
 	
 	-Ahi seleccionamos:
 		-la rama de git desde donde subimos nuestro proyecto
-		- Y tambien podemos elegir root o docs, en nuestro caso elegimos docs y listo
+		- Y tambien podemos elegir root o docs, en nuestro caso elegimos docs y guardamos 
 			
