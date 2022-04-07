@@ -74,7 +74,7 @@
 				      'git push -u origin master'
 		
 		origin: es el nombre del repositorio de github 
-		master: es el nombre de la rama desde donde subiremos el repositorio que queremos CLONAR
+		master: es el nombre de la rama en git desde donde subiremos el repositorio que queremos CLONAR
 
 24. DESCARGAR REPOSITORIO DESDE GUTHUB HACIA NUESTRA COMPUTADORA
 
