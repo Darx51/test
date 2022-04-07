@@ -103,7 +103,21 @@
 				
 1- Crear un repositorio en Github dentro del repositorio con mi usuario principal Darx51
  	
-			ejemplo: 'bakery.github.io'
+			ejemplo: 'bakery.github.io' o 'bakery' simplemente en caso de vinvularlo con la rama 'gh-pages' en git
+			
+			
+			
+			
+	OOOJOOO : los repositorios en Github inician asi: 
+					
+					'https://github.com/Darx51/bakery.github.io' 
+					
+	  <meta>    pero al momento de agregar el link en las etiquetas meta dentro del html debe ir el link 
+	      		generado por github, en este por ejemplo quedaria de la siguiente forma:
+				
+					'https://darx51.github.io/bakery.github.io/'
+			
+			
 
 2- Posicionarme en el directorio del proyecto a subir
 2.1- En git iniciar normal:
