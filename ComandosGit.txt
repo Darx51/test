@@ -172,3 +172,33 @@ NOTA:
 			
 			
 			
+	********************************************************************************************************************
+				AGREGANDO O EDITANDO UN PROYECTO YA DESPLEGADO EN GITHUB DESDE GIT 
+				
+1 - estando en dentro de git, nos pasamos a la rama donde estemos trabajando ejemplo: 
+	
+	git checkout -b gh-pages master
+	
+	master: indica que es la rama principal
+
+2 - editamos en vscode lo que necesitamos editar
+				
+3 - tecleamos el comando git add .
+
+4 - agregamos un commit:	git commit -m "proyecto editado correctamente"
+
+5 - regreso a la rama principal con:	 git checkout -main
+
+6 - y dentro de esa rama principal tecleamos el comando:
+	git merge gh-pages	(esto me traera los cambios realizados en la rama gh-pages hacia la rama master y unira los cambios de las 2 ramas)
+	
+7 - si no necesitamos mas la rama secundaria donde hicimos cambios podemos eliminarla con el comando:
+	git branch -d gh-pages
+	
+8 - y ahora subimos los cambios a github con el comando:
+	git push -u origin main				(es el mismo comando con el que subimos la 1ra vez)
+	
+	origin: es el nombre del repositorio en github, (hacia donde lo subiremos)
+	main: es el nombre de la rama desde donde estamos subiendo los cambios (desde donde subiremos los cambios)
+				
+
