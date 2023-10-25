@@ -89,7 +89,8 @@
 		'git clone https://github.com/cursowebfalconmaster'
 		
      siempre sera el comando git clone y la url del repositirio que nos da Github
-     
+
+
      
      
      
@@ -201,4 +202,29 @@ NOTA:
 	origin: es el nombre del repositorio en github, (hacia donde lo subiremos)
 	main: es el nombre de la rama desde donde estamos subiendo los cambios (desde donde subiremos los cambios)
 				
+
+
+
+
+
+
+
+
+
+**************************** COMANDOS GIT BOTERO *****************************
+git config --global username.name "nombre"
+git config --global username.name "prueba"
+git config --global username.email "prueba@prueba.com"
+
+git config --list	(con este comando vemos la informacion anterior)
+
+
+
+
+
+
+
+
+
+
 
